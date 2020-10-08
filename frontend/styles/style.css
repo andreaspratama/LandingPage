@@ -1,0 +1,258 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navigasi .navbar {
+  background-color: #424242;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navigasi .navbar .navbar-brand {
+  color: orangered;
+  font-weight: 700;
+}
+
+.navigasi .navbar .navbar-nav .nav-item {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.navigasi .navbar .navbar-nav .nav-item .active {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), to(orange));
+  background-image: linear-gradient(to right, orangered, orange);
+  color: white;
+}
+
+.navigasi .navbar .navbar-nav .nav-item:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), to(orange));
+  background-image: linear-gradient(to right, orangered, orange);
+}
+
+.navigasi .navbar .navbar-nav .nav-item a {
+  color: orangered;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.navigasi .navbar .navbar-nav .nav-item a:hover {
+  color: white;
+}
+
+.hero {
+  margin-top: 30px;
+}
+
+.hero .hero-content h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.hero .hero-content p {
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.hero .hero-content .btn-get {
+  border: none;
+  background-color: orangered;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+.hero .hero-content .btn-get:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), to(orange));
+  background-image: linear-gradient(to right, orangered, orange);
+}
+
+.hero img {
+  width: 100%;
+  height: 450px;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.about .about-content h1 {
+  font-weight: 800;
+  font-size: 55px;
+  color: orangered;
+  margin-bottom: 30px;
+}
+
+.about .about-content h4 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about .about-content p {
+  color: orangered;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.about .about-content .btn-read {
+  background-color: orangered;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+}
+
+.about .about-content .btn-read:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), to(orange));
+  background-image: linear-gradient(to right, orangered, orange);
+}
+
+.about .gambar img {
+  width: 100%;
+  height: 450px;
+  border-radius: 0 40px 0 40px;
+}
+
+.service {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.service .serviceTitle h1 {
+  font-size: 45px;
+  color: orangered;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.service .serviceSubTit h4 {
+  color: #999;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+.service .serviceContent {
+  padding: 40px 0 40px 0;
+  border-radius: 40px 0 40px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service .serviceContent:hover {
+  background-color: orangered;
+  -webkit-box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+}
+
+.service .serviceContent:hover i {
+  color: white;
+}
+
+.service .serviceContent i {
+  color: orangered;
+  margin-bottom: 30px;
+}
+
+.service .serviceContent h5 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.service .serviceContent p {
+  color: #999;
+}
+
+.team {
+  margin-top: 70px;
+}
+
+.team .teamTitle h1 {
+  font-size: 45px;
+  color: orangered;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.team .teamSubTit h4 {
+  color: #999;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+.kontak {
+  background-color: orangered;
+  margin-top: 60px;
+  padding: 50px 0 50px 0;
+}
+
+.kontak .kontakTitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.kontak .kontakTitle h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.kontak .form {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.kontak .form .btn-pesan {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.kontak .form .btn-pesan:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(orangered), to(orange));
+  background-image: linear-gradient(to right, orangered, orange);
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: orangered;
+}
+
+@media (min-width: 992px) {
+  .hero .hero-content h1 {
+    font-size: 48px;
+  }
+  .hero .hero-content p {
+    font-size: 16px;
+  }
+  .about .gambar img {
+    width: 100%;
+    height: 550px;
+    border-radius: 0 40px 0 40px;
+  }
+  .about .about-content h1 {
+    font-size: 70px;
+    margin-bottom: 60px;
+  }
+  .about .about-content h4 {
+    margin-bottom: 60px;
+  }
+  .about .about-content p {
+    margin-bottom: 60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
